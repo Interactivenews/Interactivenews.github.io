@@ -1,0 +1,127 @@
+@charset "utf-8";
+#firstScreen{
+  background-image: url("../img/cover_pc.jpg");
+  background-size:cover;
+  margin:0;
+  padding:0;
+}
+
+#secondScreen{ 
+background-image:url("../img/part1.gif");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+background-size:cover;
+  margin:0;
+  padding:0;
+}
+
+#thirdScreen{ 
+background-image:url("../img/part2.gif");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+background-size:cover;
+  margin:0;
+  padding:0;
+}
+
+#fourthScreen{ 
+background-image:url("../img/part3.gif");
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+background-size:cover;
+  margin:0;
+  padding:0;
+}
+
+#fifthScreen{
+  background-image: url("../img/footer_pc.jpg");
+  background-size:cover;
+  margin:0;
+  padding:0;
+}
+
+.timelineContainer {
+    border-left: 2px solid #ccc;
+  	padding-left: 0px;
+}
+
+.timelineHeader{
+  	background: url(../img/timeline_century_tick.gif) left center no-repeat;
+  	margin: 0 0 10px;
+  	padding: 4px 4px 4px 20px;
+}
+
+.yearTitle{
+  	font-family: Palatino, "Times New Roman", Times, serif;
+  	background-color: #ccc;
+  	font-size: 18px;
+  	font-weight: 400;
+  	border-radius: 5px;
+  	padding: 5px;
+}
+
+.timelineContent{
+  	background: url(../img/timeline_decade_tick.gif) left center no-repeat;
+  	clear: left;
+		font-size: 16px;
+		font-family:"微软雅黑";
+		list-style-type: none;
+		line-height: 20px;
+		margin: 0 0 12px;
+		padding: 0 0 0 24px;
+}
+
+#secondText,#thirdText1,#thirdText2,#fourthText{
+	color:#34343e;
+	font-family:"微软雅黑";
+	font-size:16px;
+	line-height:24px;
+}
+	
+.thirdContentFirstPart{
+  position: relative;
+  float: left;
+}
+
+.thirdContentSecondPart{
+  position: relative;
+  float: left;
+}
+
+@media screen and (max-width: 992px) {
+	 #firstScreen{
+  background-image: url("../img/cover_mobile.jpg");
+  background-size:cover;
+  margin:0;
+  padding:0;
+}
+
+   #fifthScreen{
+  background-image: url("../img/footer_mobile.jpg");
+  background-size:cover;
+  margin:0;
+  padding:0;
+}
+
+  #tpic1Container{
+      display: none;
+  }
+
+  #tpic2Container{
+      display: none;
+  }
+
+  .subtitle1 h1{
+    text-align: center !important;
+	line-height:80px;
+  }
+
+  .subtitle2 h1{
+    text-align: center !important;
+    padding-top: 0px !important;
+	line-height:80px;
+  }
+}
